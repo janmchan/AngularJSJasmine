@@ -1,29 +1,69 @@
-﻿body {
-    padding-top: 70px;
-    padding-bottom: 20px;
-}
+.flex-container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex; }
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+  .flex-container li {
+    padding: 5px;
+    width: 95px;
+    height: 54px;
+    margin-top: 10px;
+    margin-right: 5px;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center; }
+
+body {
+  padding-top: 70px;
+  padding-bottom: 20px; }
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
-    padding-left: 15px;
-    padding-right: 15px;
-}
+  padding-left: 15px;
+  padding-right: 15px; }
 
 /* Set width on the form input elements since they're 100% wide by default */
 input,
 select,
 textarea {
-    max-width: 280px;
-}
+  max-width: 280px; }
 
 article {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
 /* Centre Pills nav bar*/
-.centered-pills { text-align:center; }
-.centered-pills ul.nav-pills { display:inline-block; }
-.centered-pills li { display:inline; }
-.centered-pills a { float:left; }
-* html .centered-pills ul.nav-pills { display:inline; } /* IE6 */
-*+html .centered-pills ul.nav-pills { display:inline; } /* IE7 */
+.centered-pills {
+  text-align: center; }
+
+.centered-pills ul.nav-pills {
+  display: inline-block; }
+
+.centered-pills li {
+  display: inline; }
+
+.centered-pills a {
+  float: left; }
+
+* html .centered-pills ul.nav-pills {
+  display: inline; }
+
+/* IE6 */
+* + html .centered-pills ul.nav-pills {
+  display: inline; }
+
+/* IE7 */
+
+/*# sourceMappingURL=site.css.map */

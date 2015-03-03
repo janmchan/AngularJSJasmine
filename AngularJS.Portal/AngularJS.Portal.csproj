@@ -167,6 +167,7 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
+    <Compile Include="Controllers\HeroController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\WebApi\ProductController.cs" />
     <Compile Include="Controllers\WebApi\ValuesController.cs" />
@@ -240,6 +241,16 @@
     <Content Include="Scripts\angularjs\angular-aria.min.js.map" />
     <Content Include="Scripts\angularjs\angular-animate.min.js.map" />
     <Content Include="Scripts\angularjs\angular.min.js.map" />
+    <Content Include="Content\Site.scss" />
+    <Content Include="Content\helpers\_functions.scss" />
+    <Content Include="Content\helpers\_mixins.scss" />
+    <Content Include="Content\helpers\_variables.scss" />
+    <Content Include="Content\helpers\_all.scss" />
+    <Content Include="Content\base\_typography.scss" />
+    <Content Include="Content\base\_all.scss" />
+    <Content Include="Content\modules\_all.scss" />
+    <Content Include="Content\modules\_flexbox.scss" />
+    <Content Include="Scripts\dota.json" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\angularjs\i18n\angular-locale_aa-dj.js" />
     <Content Include="Scripts\angularjs\i18n\angular-locale_aa-er.js" />
@@ -988,6 +999,8 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Scripts\version.json" />
+    <Content Include="Views\Hero\Index.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AngularJS.DAL.Core\AngularJS.DAL.Core.csproj">
