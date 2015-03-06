@@ -31,3 +31,7 @@ article {
 .centered-pills a { float:left; }
 * html .centered-pills ul.nav-pills { display:inline; } /* IE6 */
 *+html .centered-pills ul.nav-pills { display:inline; } /* IE7 */
+
+h2 {
+    clear: both;
+}

@@ -3,10 +3,22 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 <div ng-controller="LandingPageController">
+    
     <ul class="flex-container" >
-        <li ng-repeat="model in models">
+        <li ng-repeat="model in models | filter: isStr">
             <img ng-src="{{model.avatar.sm}}" title="{{model.info.name}}" />
         </li>
-        
+    </ul>
+    
+    <ul class="flex-container">
+        ]<li ng-repeat="model in models | filter: isInt">
+            <img ng-src="{{model.avatar.sm}}" title="{{model.info.name}}" />
+        </li>
+    </ul>
+    
+    <ul class="flex-container">
+        <li ng-repeat="model in models | filter: isAgi">
+            <img ng-src="{{model.avatar.sm}}" title="{{model.info.name}}" />
+        </li>
     </ul>
 </div>

@@ -67,3 +67,6 @@ article {
 /* IE7 */
 
 /*# sourceMappingURL=site.css.map */
+h2 {
+    clear: both;
+}

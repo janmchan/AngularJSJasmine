@@ -251,6 +251,7 @@
     <Content Include="Content\modules\_all.scss" />
     <Content Include="Content\modules\_flexbox.scss" />
     <Content Include="Scripts\dota.json" />
+    <Content Include="Content\sass.bat" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\angularjs\i18n\angular-locale_aa-dj.js" />
     <Content Include="Scripts\angularjs\i18n\angular-locale_aa-er.js" />

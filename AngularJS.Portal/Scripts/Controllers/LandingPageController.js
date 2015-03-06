@@ -1,24 +1,24 @@
 ﻿var LandingPageController = function ($scope, $http) {
     var allHeroes = [];
+    
     var responsePromise = $http.get("/Scripts/dota.json");
 
     responsePromise.success(function (data, status, headers, config) {
         $scope.models = data;
     });
     responsePromise.error(function (data, status, headers, config) {
-        alert("AJAX failed!");
+        console.log('$http get failed.');
     });
 
-    $scope.str = function (model) {
-        return model.info.type == 'Str';
+    $scope.isStr = function (model) {
+        return model.info.type === 'Str';
     };
-    $scope.int = function (model) {
-        return model.info.type == 'Int';
+    $scope.isAgi = function (model) {
+        return model.info.type === 'Agi';
     };
-    $scope.agi = function (model) {
-        return model.info.type == 'Agi';
+    $scope.isInt = function (model) {
+        return model.info.type === 'Int';
     };
-    
     
 }
 var HeroDetailsController = function ($scope) {
