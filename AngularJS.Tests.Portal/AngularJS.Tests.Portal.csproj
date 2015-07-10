@@ -101,6 +101,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App.config" />
+    <Content Include="ng-app\HeroDetailsControllerSpec.js" />
     <Content Include="ng-app\LandingPageControllerSpec.js" />
   </ItemGroup>
   <ItemGroup>
